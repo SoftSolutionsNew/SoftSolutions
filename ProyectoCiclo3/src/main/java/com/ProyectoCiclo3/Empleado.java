@@ -1,5 +1,5 @@
 package com.ProyectoCiclo3;
-
+//Sergio Andres Vargas
 public class Empleado {
     public String nombre;
     public String correo;
