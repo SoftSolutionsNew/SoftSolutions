@@ -1,6 +1,10 @@
 package com.ProyectoCiclo3;
 
 public class MovimientoDinero {
+    /* juan
+    *
+    *
+    * */
 
     public float monto;
     public String concepto;
