@@ -15,10 +15,10 @@ public class MovimintoDineroController {
         this.movimientoDineroService = movimientoDineroService;
     }
 
-    @GetMapping("/movimiento")
-    public List<MovimientoDinero> getListMovimiento(){
-        return this.movimientoDineroService.getListMovimientos();
-    }
+    //@GetMapping("/movimiento")
+    //public List<MovimientoDinero> getListMovimiento(){
+        //return this.movimientoDineroService.getListMovimientos();
+   // }
 
     @PostMapping("/movimiento")
     public MovimientoDinero InsertMovimiento(@RequestBody MovimientoDinero movimientoD){

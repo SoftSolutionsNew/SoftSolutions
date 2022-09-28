@@ -6,4 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface MovimientoDineroRepository extends JpaRepository<MovimientoDinero,Long> {
+
 }
