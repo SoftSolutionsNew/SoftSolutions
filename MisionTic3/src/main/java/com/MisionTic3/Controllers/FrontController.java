@@ -29,4 +29,10 @@ public class FrontController {
         model.addAttribute("movimientos", movimientos);
         return "movimientos";
     }
+
+    @GetMapping("/movimientos/new")
+    public String newMovimiento(){
+        return "new-movimiento";
+    }
+
 }
