@@ -39,4 +39,8 @@ public class EmpleadoService {
 
         return empleadoActual;
     }
+
+    public Empleado getEmpleado(Long id){
+        return this.empleadoRepo.findById(id).orElseThrow();
+    }
 }
